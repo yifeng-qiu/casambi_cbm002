@@ -1,0 +1,27 @@
+# Copyright (c) 2023 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+
+CONFIG_SOC_SERIES_NRF52X=y
+CONFIG_SOC_NRF52832_QFAA=y
+CONFIG_BOARD_CBM002_NFC=y
+CONFIG_CLOCK_CONTROL_NRF_K32SRC_SYNTH=y
+
+# Enable MPU
+CONFIG_ARM_MPU=y
+
+# Enable hardware stack protection
+CONFIG_HW_STACK_PROTECTION=y
+
+# Enable GPIO
+CONFIG_GPIO=y
+
+# Enable UART Console
+CONFIG_SERIAL=y
+CONFIG_CONSOLE=y
+
+# Enable Pin Control
+CONFIG_PINCTRL=y    #needed to enable pin control
+
+# Enable Bluetooth
+CONFIG_BT=y
+

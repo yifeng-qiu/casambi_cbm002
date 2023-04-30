@@ -1,0 +1,12 @@
+# Copyright (c) 2023 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_CBM002
+
+config BOARD
+	default "cbm002"
+
+config BT_CTLR
+   default BT
+
+endif
