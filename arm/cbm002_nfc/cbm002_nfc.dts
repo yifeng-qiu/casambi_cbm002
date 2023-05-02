@@ -20,10 +20,15 @@
 			gpios = <&gpio0 11 GPIO_ACTIVE_HIGH>;
 			label = "LED 0";
 		};
+		led1: led_1 {
+			gpios = <&gpio0 14 GPIO_ACTIVE_HIGH>;
+			label = "LED 1";
+		};
 	};
 
 	aliases {
 		led0 = &led0;
+		led1 = &led1;
 	};
 };
 

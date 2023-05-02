@@ -18,6 +18,7 @@ CONFIG_GPIO=y
 # Enable UART Console
 CONFIG_SERIAL=y
 CONFIG_CONSOLE=y
+CONFIG_UART_CONSOLE=y
 
 # Enable Pin Control
 CONFIG_PINCTRL=y    #needed to enable pin control
