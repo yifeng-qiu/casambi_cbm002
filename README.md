@@ -1,6 +1,6 @@
 # Zephyr Configurations for CASAMBI CBM-002A/B Modules
 
-Although it is stated that the chip inside the module supports Bluetooth 4.0, the modules I have actually houses an NRF52832_QFAAE1 SoC. According to [SoC Revisions and Variants](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fcomp_matrix_nrf52832%2FCOMP%2Fnrf52832%2Fic_revision_overview.html), this nRF52832 rev2, in QFN48 package with 512kB of flash and 64kB of SRAM.
+Although it is stated that the chip inside the module supports Bluetooth 4.0, the modules I have actually house an NRF52832_QFAAE1 SoC. According to [SoC Revisions and Variants](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fcomp_matrix_nrf52832%2FCOMP%2Fnrf52832%2Fic_revision_overview.html), this is nRF52832 rev2 in QFN48 package with 512kB of flash and 64kB of SRAM.
 
 The modules expose SWDIO and SWDCLK pins, which makes reprogramming the MCU possible.
 The nRF SoC inside the module has AP lock enabled but it can be easily unlocked by running nrf52_recover inside openOCD.
